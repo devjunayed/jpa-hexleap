@@ -1,3 +1,4 @@
 import ThemeSwitch from "./ThemeSwitch";
+import Sports from "./sports/Sports";
 
-export {ThemeSwitch};
+export {ThemeSwitch, Sports};

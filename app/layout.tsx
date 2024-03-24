@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         <Providers>
-          <ThemeSwitch></ThemeSwitch>
+         <div className="w-full flex justify-center my-4"><ThemeSwitch /></div>
           {children}
           </Providers>
       </body>

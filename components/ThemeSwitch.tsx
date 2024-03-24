@@ -1,11 +1,11 @@
 "use client";
 import { useTheme } from 'next-themes';
 import React, { useEffect, useState } from 'react'
+import { IoMoon, IoSunny } from 'react-icons/io5';
 
 const ThemeSwitch = () => {
     const [mounted, setMounted] = useState(false);
     const {setTheme, resolvedTheme} = useTheme();
-    console.log(resolvedTheme);
     
     useEffect(()=> setMounted(true), []);
 
@@ -13,10 +13,10 @@ const ThemeSwitch = () => {
         return <span className="loading"></span>
     }
     if(resolvedTheme === 'dark'){
-        return <button onClick={()=> setTheme("light")}>Light</button>
+        return <button onClick={()=> setTheme("light")}><IoSunny /></button>
     }
     if(resolvedTheme === "light"){
-        return <button onClick={()=> setTheme("dark")}>Dark</button>
+        return <button onClick={()=> setTheme("dark")}><IoMoon /></button>
     }
 }
 
