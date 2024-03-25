@@ -10,7 +10,7 @@ const SpotlightCard = ({
   collectionType,
 }: SpotlightCardProps) => {
   return (
-    <div className="bg-[url('/white_ticket_bg.png')]  bg-no-repeat bg-contain w-[257px] dark:bg-[url('/black_ticket_bg.png')] dark:h-[624px] ">
+    <div className="bg-[url('/white_ticket_bg.png')] mr-20 mx-auto  bg-no-repeat bg-contain w-[257px] dark:bg-[url('/black_ticket_bg.png')] dark:h-[624px] ">
       <div className="relative h-[400px]">
         <Image alt="" fill src={imgSrc} />
       </div>
