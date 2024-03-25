@@ -1,4 +1,4 @@
 import ThemeSwitch from "./ThemeSwitch";
 import Sports from "./sports/Sports";
-
-export {ThemeSwitch, Sports};
+import Spotlight from "./spotlight/Spotlight";
+export {ThemeSwitch, Sports, Spotlight};

@@ -18,6 +18,7 @@ const SportCard = ({
           alt={title}
           src={imgSrc}
           height={217}
+          layout="fixed"
           width={385}
           objectFit="contain"
         />
@@ -28,8 +29,8 @@ const SportCard = ({
         )}
       </div>
       {isAd && (
-        <div className="mx-4">
-          <h1 className="my-4">{title}</h1>
+        <div className="mx-2">
+          <h1 className="dark:text-white my-4">{title}</h1>
           <p className=" dark:text-[#DFDFDF] text-xs text-[#525965]">
             {description}
           </p>
@@ -37,7 +38,7 @@ const SportCard = ({
       )}
       {!isAd && (
         <div>
-          <h1 className="my-2">{title}</h1>
+          <h1 className="dark:text-white my-2">{title}</h1>
           <div className="flex justify-between  dark:bg-black p-2 rounded-sm">
             <div className="flex flex-col w-1/2">
               <p className="dark:text-[#DFDFDF] text-xs text-[#525965]">

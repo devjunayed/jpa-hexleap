@@ -8,3 +8,12 @@ export interface SportCardProps{
     isAd: boolean;
     description?: string;
 }
+
+export interface SpotlightCardProps{
+    key: string;
+    imgSrc: string;
+    title: string;
+    date: string;
+    shortDescription: string;
+    collectionType: string;
+}

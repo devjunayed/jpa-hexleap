@@ -13,7 +13,7 @@ const ThemeSwitch = () => {
         return <span className="loading"></span>
     }
     if(resolvedTheme === 'dark'){
-        return <button onClick={()=> setTheme("light")}><IoSunny /></button>
+        return <button className='dark:text-white' onClick={()=> setTheme("light")}><IoSunny /></button>
     }
     if(resolvedTheme === "light"){
         return <button onClick={()=> setTheme("dark")}><IoMoon /></button>

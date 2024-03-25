@@ -1,0 +1,21 @@
+.swiper-wrapper {
+  margin: 0px 20px 0px 20px !important;
+}
+.swiper-slide {
+  text-align: center;
+  margin: 0 auto;
+}
+.swiper-button-prev::after {
+  padding: 12px;
+  border: 2px solid #1e95ed !important;
+  font-size: 14px !important;
+  font-weight: bolde;
+  color: #1e95ed;
+}
+.swiper-button-next::after {
+  font-weight: bold;
+  color: #1e95ed;
+  padding: 12px;
+  font-size: 14px !important;
+  border: 2px solid #1e95ed !important;
+}
